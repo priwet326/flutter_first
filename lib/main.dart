@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget { // этот класс не меняетс
     return MaterialApp(
       title: nameApp, // название приложения
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple), // цветовая тема приложения
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green), // цветовая тема приложения
       ),
       home: const MyHomePage(title: nameApp), // как я понял стартовая страница
     );
